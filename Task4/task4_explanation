@@ -1,0 +1,23 @@
+The sales prediction code in Python follows a step-by-step approach to analyze the "advertising.csv" dataset, build a linear regression model, evaluate its performance, and make predictions on new data. Let's go through the process:
+
+1. Importing the CSV file: The code begins by importing the "advertising.csv" file, which contains data on advertising expenditures and corresponding sales figures.
+
+2. Displaying the head and dataset information: The first few rows of the dataset are displayed to get a quick overview of the data. Additionally, information about the dataset, such as data types and non-null counts, is provided.
+
+3. Describing the data: The code generates descriptive statistics of the dataset, including mean, standard deviation, minimum, maximum, and quartiles, to better understand the distribution and range of the data.
+
+4. Checking for null values: The code checks if there are any missing values in the dataset to ensure data integrity and handle any missing data if necessary.
+
+5. Visualizing the relationship between TV and sales: Scatter plots are used to visualize the relationship between advertising expenditure on TV and corresponding sales. This helps identify any patterns or trends between the variables.
+
+6. Splitting the data into training and test sets: The dataset is divided into two subsets: the training set, used to train the linear regression model, and the test set, used to evaluate the model's performance on unseen data.
+
+7. Selecting and training the model (Linear Regression): The code uses linear regression as the predictive model, and the model is trained on the training set, learning the relationship between advertising expenditures and sales.
+
+8. Evaluating the model and predicting accuracy: The trained model's performance is evaluated using metrics such as Mean Squared Error (MSE) or R-squared to measure how well it fits the training data.
+
+9. Making predictions using new data: The model is then used to make predictions on new data (test set) to assess its ability to generalize to unseen data.
+
+10. Predicting sales: Finally, using the trained model, the code can predict the sales figures based on new advertising expenditure data. These predictions can be used to inform advertising strategies and make data-driven decisions to maximize sales potential.
+
+By following this step-by-step approach, businesses can leverage the power of Python and linear regression to gain valuable insights from the data, make accurate sales predictions, and optimize their advertising efforts for growth and success.
